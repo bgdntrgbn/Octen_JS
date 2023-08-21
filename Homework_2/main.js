@@ -217,18 +217,12 @@
 // }
 //
 //
-// let a = 'true'
-// console.log(!!a)
-// if (a !== true)
-// {
-//     let def = 'bad'
-//     a = def
-//     console.log(def)
-// }
-// else
-// {
-//     console.log(a)
-// }
+// let a = false;
+// if (!a) {
+//   const def = 5;
+//   a = def;
+//   console.log(a);
+// } else console.log(a);
 //
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
